@@ -11,7 +11,7 @@ export default function Pricing(){
         <li>Data: 500 GB</li>
         <li>Support: Email</li>
       </ul>
-      <button className="bg-blue-600 text-white px-6 py-3 rounded-lg">Select Plan</button>
+      <button className="price_button bg-blue-600 text-white px-6 py-3 rounded-lg">Select Plan</button>
     </div>
     <div className="bg-gray-200 p-6 rounded-lg text-center">
       <h3 className="text-2xl font-semibold mb-4">Standard Plan</h3>
@@ -21,7 +21,7 @@ export default function Pricing(){
         <li>Data: 1 TB</li>
         <li>Support: Phone & Email</li>
       </ul>
-      <button className="bg-blue-600 text-white px-6 py-3 rounded-lg">Select Plan</button>
+      <button className="price_button bg-blue-600 text-white px-6 py-3 rounded-lg">Select Plan</button>
     </div>
     <div className="bg-gray-200 p-6 rounded-lg text-center">
       <h3 className="text-2xl font-semibold mb-4">Premium Plan</h3>
@@ -31,7 +31,7 @@ export default function Pricing(){
         <li>Data: Unlimited</li>
         <li>Support: 24/7</li>
       </ul>
-      <button className="bg-blue-600 text-white px-6 py-3 rounded-lg">Select Plan</button>
+      <button className="price_button bg-blue-600 text-white px-6 py-3 rounded-lg">Select Plan</button>
     </div>
   </div>
 </div>

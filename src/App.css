@@ -9,12 +9,12 @@ li {
 }
 
 /* Transition effect for buttons */
-button {
+.price_button {
   transition: all 0.4s ease;
 }
 
 /* Hover effect for buttons */
-button:hover {
+.price_button:hover {
   transform: scale(1.2); /* Scales the button */
   box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.4); /* Adds shadow */
   background-color: blue;
