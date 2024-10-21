@@ -10,9 +10,9 @@ const Header = () => {
 
   return (
     <header className="bg-blue-700 text-white py-4 fixed w-full top-0 z-50 shadow-md">
-      <div className="container mx-auto flex items-center justify-between px-6">
+      <div className="container mx-auto flex items-center justify-between px-4 md:px-6 lg:px-8">
         {/* Logo or Title */}
-        <div className="text-2xl font-bold">Global Internet Services</div>
+        <div className="text-2xl md:text-3xl lg:text-4xl font-bold">Global Internet Services</div>
 
         {/* Hamburger Menu Icon */}
         <button
@@ -36,14 +36,14 @@ const Header = () => {
         </button>
 
         {/* Navigation Links (Desktop) */}
-        <nav className="hidden md:flex">
-          <ul className="flex space-x-6">
+        <nav className="hidden md:flex lg:w-1/2 justify-end">
+          <ul className="flex space-x-4 md:space-x-6 lg:space-x-8">
             <li>
               <Link
                 to="hero"
                 smooth={true}
                 duration={500}
-                className="hover:underline"
+                className="hover:underline text-sm md:text-md lg:text-lg"
               >
                 Home
               </Link>
@@ -53,7 +53,7 @@ const Header = () => {
                 to="why-us"
                 smooth={true}
                 duration={500}
-                className="hover:underline"
+                className="hover:underline text-sm md:text-md lg:text-lg"
               >
                 Why Us
               </Link>
@@ -63,7 +63,7 @@ const Header = () => {
                 to="pricing"
                 smooth={true}
                 duration={500}
-                className="hover:underline"
+                className="hover:underline text-sm md:text-md lg:text-lg"
               >
                 Pricing
               </Link>
@@ -73,7 +73,7 @@ const Header = () => {
                 to="faq"
                 smooth={true}
                 duration={500}
-                className="hover:underline"
+                className="hover:underline text-sm md:text-md lg:text-lg"
               >
                 FAQ
               </Link>
@@ -113,7 +113,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 onClick={toggleMenu}
-                className="text-2xl hover:underline"
+                className="text-2xl md:text-3xl hover:underline"
               >
                 Home
               </Link>
@@ -124,7 +124,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 onClick={toggleMenu}
-                className="text-2xl hover:underline"
+                className="text-2xl md:text-3xl hover:underline"
               >
                 Why Us
               </Link>
@@ -135,7 +135,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 onClick={toggleMenu}
-                className="text-2xl hover:underline"
+                className="text-2xl md:text-3xl hover:underline"
               >
                 Pricing
               </Link>
@@ -146,7 +146,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 onClick={toggleMenu}
-                className="text-2xl hover:underline"
+                className="text-2xl md:text-3xl hover:underline"
               >
                 FAQ
               </Link>
@@ -156,6 +156,6 @@ const Header = () => {
       </div>
     </header>
   );
-};
+}
 
-export default Header;
+export default Header

@@ -1,0 +1,17 @@
+@media (max-width: 305px) {
+  #hero .w-full {
+    width: 100% !important;
+  }
+  #hero .mx-auto {
+    margin: 0 auto !important;
+  }
+  #hero .text-center {
+    text-align: center !important;
+  }
+  #hero .hidden {
+    display: none !important;
+  }
+  #hero .flex-shrink-0 {
+    flex-shrink: 0 !important;
+  }
+}
